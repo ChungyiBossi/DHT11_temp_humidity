@@ -4,18 +4,21 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "MatrixMicro": "github:matrix-robotics/pxt-matrixmicro#v1.0.41"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.18",
+        "target": "5.0.6",
         "targetId": "microbit"
     },
     "supportedTargets": [
